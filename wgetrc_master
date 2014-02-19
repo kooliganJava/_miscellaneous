@@ -1,0 +1,179 @@
+##################################################### CONTROL
+#background = on/off
+#netrc = on/off
+
+################################ ERROR HANDLING
+#tries = n
+#wait_retry = n
+#retr_symlinks = on/off
+#retry_connrefused = on/off
+
+################################ RATE LIMITING
+#wait = n
+#random_wait = on/off
+#limit_rate = rate
+
+################################ VOLUME LIMITING
+#quota = quota
+
+##################################################### MONITORING
+
+#logfile = file
+#server_response = on/off
+
+################################ INFORMATION LEVEL
+#quiet = on/off
+#verbose = on/off
+#debug = on/off
+
+################################ PROGRESS INDICATION
+#progress = string
+#dot_bytes = n
+#dot_spacing = n
+#dots_in_line = n
+
+################################ INPUT CONTROL
+#input = file
+#base = string
+#force_html = on/off
+
+##################################################### DNS RESOLUTION
+#show_all_dns_entries = on/off
+#dns_cache = on/off
+#dns_timeout = n
+
+##################################################### LAYER 3
+#inet4_only = on/off
+#inet6_only = on/off
+#bind_address = address
+#prefer_family = none/IPv4/IPv6
+
+##################################################### LAYER 4
+#read_timeout = n
+#connect_timeout = n
+#timeout = n
+
+##################################################### SSL
+#check_certificate = on/off
+#secure_protocol = string
+#ca_certificate = file
+#ca_directory = directory
+#random_file = file
+#egd_file = file
+#certificate = file
+#certificate_type = string
+#private_key = file
+#private_key_type = string
+
+##################################################### GLOBAL AUTHENTICATION
+#user = string
+#password = string
+
+##################################################### HTTP PROXY CONFIGURATION
+#use_proxy = on/off
+#no_proxy = string
+#http_proxy = string
+#https_proxy = string
+#proxy_password = string
+#proxy_user = string
+
+##################################################### HTTP AUTHENTICATION
+#auth_no_challenge = on/off
+#http_user = string
+#http_password = string
+#ask_password = on/off
+
+##################################################### HTTP REQUEST FORMATION
+
+#http_keep_alive = on/off
+#cache = on/off
+
+################################ HTTP POST
+#post_data = string
+#post_file = file
+
+################################ HTTP HEADER CONTROL
+#referer = string
+#user_agent = string
+#header = string
+
+################################ HTTP RESPONSE HANDLING
+#max_redirect = number
+#save_headers = on/off
+#continue = on/off
+#ignore_length = on/off
+#cut_dirs = n
+
+################################ HTTP COOKIE HANDLING
+#cookies = on/off
+#keep_session_cookies = on/off
+#load_cookies = file
+#save_cookies = file
+
+##################################################### RECURSION
+#robots = on/off
+#recursive = on/off
+#reclevel = n
+#mirror = on/off
+#spider = on/off
+
+#default_page = string
+#no_clobber = on/off
+#no_parent = on/off
+#span_hosts = on/off
+#timestamping = on/off
+#use_server_timestamps = on/off
+#ignore_case = on/off
+#iri = on/off
+
+################################ RECURSIVE INCLUDES AND EXCLUDES
+#accept/reject = string
+#domains = string
+#exclude_domains = string
+#exclude_directories = string
+#include_directories = string
+
+
+##################################################### HTML PARSING
+#relative_only = on/off
+#strict_comments = on/off
+#follow_tags = string
+#follow_ftp = on/off
+#page_requisites = on/off
+#ignore_tags = string
+#remote_encoding = encoding
+
+
+##################################################### FTP
+#passive_ftp = on/off
+#ftp_password = string
+#ftp_proxy = string
+#ftp_user = string
+#glob = on/off
+#remove_listing = on/off
+
+##################################################### OUTPUT CONTROL
+
+#output_document = file
+
+############################## DIRECTORIES
+#dir_prefix = string
+#add_hostdir = on/off
+#protocol_directories = on/off
+#dirstruct = on/off
+
+############################## FILENAMES
+#adjust_extension = on/off
+#content_disposition = on/off
+#trust_server_names = on/off
+#restrict_file_names = unix/windows
+
+
+############################## FILE CONTENT
+#convert_links = on/off
+#backup_converted = on/off
+#local_encoding = encoding
+
+
+#delete_after = on/off
+
