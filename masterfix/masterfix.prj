@@ -1,0 +1,29 @@
+[Project ID]
+Signature=UE Proj: v.1
+[Project Information]
+Use Relative Directory=1
+Relative to Project File=1
+Project Start=D7070B0000000B0001000A002100000020
+Compilable=1
+Working Time=669093
+[Files]
+0=masterfix.cmd
+1=masterfix3.cmd
+[Open Files]
+Active File Display Mode=3
+Active File Index=1
+Open File Line0=1475
+Open File Line1=9
+Open File Line2=0
+Open File Pos0=3070
+Open File Pos1=305
+Open File Pos2=78
+Open File Window Pos0=0,1,-1,-1,-4,-23,132,132,1118,709
+Open File Window Pos1=2,3,-1,-1,-4,-23,22,22,1008,599
+Open File Window Pos2=0,1,-1,-1,-4,-23,66,66,1052,643
+Open File0=C:\_projects\cl2\clfetch.cmd
+Open File1=C:\_projects\cl2\get_post_urls.awk
+Open File2=C:\_projects\cl2\temp_fix_csv.awk
+Open File3=
+[uemakeXp]
+Compiler=Configs\A386 Assembler\Win32 Console Application
